@@ -109,7 +109,7 @@ jobs:
             <b>• 🌐 Git Repo :</b> <b>${{ github.repository }}</b>
             <b>• ⏳ Deployed At :</b> <b>${{ env.FORMATTED_TIME }}</b>
             <b>• 🧾 CI Run # :</b> <b>${{ env.NOTIF_COUNTER }}</b>
-            <b>• 🔐 Commit Auth :</b> <b>callistercale@gmail.com</b> # Changed email
+            <b>• 🔐 Commit Auth :</b> <b>callistercale@gmail.com</b>
 
             <b>#DeployLikeAPro #DevOpsMode</b>
             <b>💯 This script was 100% created by Abie Haryatmo</b>
@@ -118,8 +118,8 @@ jobs:
 
       - name: 🤖 Configure Git
         run: |
-          git config user.name "callistercale" # Changed email
-          git config user.email "callistercale@gmail.com" # Changed email
+          git config user.name "callistercale"
+          git config user.email "callistercale@gmail.com"
 
       - name: 🚩 Commit & Push Changes
         run: |
