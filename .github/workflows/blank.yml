@@ -126,4 +126,3 @@ jobs:
           git add levels/
           git commit -m "✨ Add Level: ${{ env.LEVEL_NAME }} (by callistercale@gmail.com)" || echo "Nothing to commit" # Changed email
           git push
-�
